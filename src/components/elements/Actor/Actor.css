@@ -10,7 +10,8 @@
 }
 
 .mi-actor-name {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
   font-size: 22px;
   color: #fff;
   float: left;
@@ -20,7 +21,7 @@
 }
 
 .mi-actor-character {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   color: #fff;
   float: left;

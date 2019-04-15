@@ -1,5 +1,6 @@
 .mi-movie {
   margin-bottom: 100px;
+  overflow: hidden;
 }
 
 .mi-movie-grid {

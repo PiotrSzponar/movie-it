@@ -27,6 +27,13 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .mi-grid-content {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+}
+
 @media screen and (max-width: 720px) {
   .mi-grid-content {
     grid-template-columns: auto auto;

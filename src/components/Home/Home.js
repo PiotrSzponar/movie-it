@@ -55,9 +55,9 @@ class Home extends Component {
 
     fetchItems = async endpoint => {
         const { movies, heroImage, searchTerm } = this.state;
-        const result = await (await fetch(endpoint)).json();
-
+        
         try {
+            const result = await (await fetch(endpoint)).json();
             this.setState({
                 movies: [...movies, ...result.results],
                 heroImage: heroImage || result.results[0],
